@@ -9,8 +9,10 @@ using System.Threading.Tasks;
 
 namespace RestWithASPNETUdemy.Controllers
 {
+
+    [ApiVersion("1")]
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/v{version:apiVersion}")]
     public class PersonsController : ControllerBase
     {
       
