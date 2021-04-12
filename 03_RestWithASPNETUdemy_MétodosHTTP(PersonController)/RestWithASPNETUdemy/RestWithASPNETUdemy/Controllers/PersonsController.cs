@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace RestWithASPNETUdemy.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class PersonsController : ControllerBase
     {
       
@@ -23,8 +23,8 @@ namespace RestWithASPNETUdemy.Controllers
             _logger = logger;
             _personService = personService;
         }
+
         [HttpGet]
-        
         public IActionResult Get()
         {
             return Ok(_personService.FindAll());
@@ -54,6 +54,7 @@ namespace RestWithASPNETUdemy.Controllers
             return Ok(_personService.Update(person));
         }
 
+        [HttpDelete("{id}")]
         public IActionResult Delete(long id)
         {
              _personService.Delete(id);
