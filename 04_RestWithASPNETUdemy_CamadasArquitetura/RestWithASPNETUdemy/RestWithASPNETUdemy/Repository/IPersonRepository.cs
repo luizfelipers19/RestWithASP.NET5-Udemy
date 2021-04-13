@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace RestWithASPNETUdemy.Services
+namespace RestWithASPNETUdemy.Repository
 {
-    public interface IPersonService
+    public interface IPersonRepository
     { 
         Person Create(Person person);
 
@@ -17,6 +17,8 @@ namespace RestWithASPNETUdemy.Services
         Person Update(Person person);
 
         void Delete(long id);
+
+        bool Exists(long id);
 
 
     }
