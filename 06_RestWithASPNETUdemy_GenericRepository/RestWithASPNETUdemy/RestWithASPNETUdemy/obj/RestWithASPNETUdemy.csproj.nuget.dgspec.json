@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Windows\\Desktop\\Estudo\\RestWithASP-NET5Udemy\\RestWithASP.NET5-Udemy\\05_RestWithASPNETUdemy_EntityFrameworkMigrations\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj": {}
+    "C:\\Users\\Windows\\Desktop\\Estudo\\RestWithASP-NET5Udemy\\RestWithASP.NET5-Udemy\\06_RestWithASPNETUdemy_GenericRepository\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Windows\\Desktop\\Estudo\\RestWithASP-NET5Udemy\\RestWithASP.NET5-Udemy\\05_RestWithASPNETUdemy_EntityFrameworkMigrations\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj": {
+    "C:\\Users\\Windows\\Desktop\\Estudo\\RestWithASP-NET5Udemy\\RestWithASP.NET5-Udemy\\06_RestWithASPNETUdemy_GenericRepository\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Windows\\Desktop\\Estudo\\RestWithASP-NET5Udemy\\RestWithASP.NET5-Udemy\\05_RestWithASPNETUdemy_EntityFrameworkMigrations\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
+        "projectUniqueName": "C:\\Users\\Windows\\Desktop\\Estudo\\RestWithASP-NET5Udemy\\RestWithASP.NET5-Udemy\\06_RestWithASPNETUdemy_GenericRepository\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
         "projectName": "RestWithASPNETUdemy",
-        "projectPath": "C:\\Users\\Windows\\Desktop\\Estudo\\RestWithASP-NET5Udemy\\RestWithASP.NET5-Udemy\\05_RestWithASPNETUdemy_EntityFrameworkMigrations\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
+        "projectPath": "C:\\Users\\Windows\\Desktop\\Estudo\\RestWithASP-NET5Udemy\\RestWithASP.NET5-Udemy\\06_RestWithASPNETUdemy_GenericRepository\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
         "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Windows\\Desktop\\Estudo\\RestWithASP-NET5Udemy\\RestWithASP.NET5-Udemy\\05_RestWithASPNETUdemy_EntityFrameworkMigrations\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\obj\\",
+        "outputPath": "C:\\Users\\Windows\\Desktop\\Estudo\\RestWithASP-NET5Udemy\\RestWithASP.NET5-Udemy\\06_RestWithASPNETUdemy_GenericRepository\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

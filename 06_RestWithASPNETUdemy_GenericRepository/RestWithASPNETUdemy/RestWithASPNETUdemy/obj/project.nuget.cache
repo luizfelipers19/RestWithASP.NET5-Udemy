@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BR4vq+ZkP2ja2Gs0qZiwxQNVjX+nQ+2vEl7Dq/vQc36+y/Q+KiXT0NbHpnplzScGVSO7QB2rf3IIm+uJrn7AHg==",
+  "dgSpecHash": "vj4HpqSkBC9TgEmMmCThHnUqc0aHt61ZBs6gUTUg+p5CRCV9eI2JNLV+lidCdTZZ4uGaS4PYIJq0R717IXP64g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Windows\\Desktop\\Estudo\\RestWithASP-NET5Udemy\\RestWithASP.NET5-Udemy\\05_RestWithASPNETUdemy_EntityFrameworkMigrations\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
+  "projectFilePath": "C:\\Users\\Windows\\Desktop\\Estudo\\RestWithASP-NET5Udemy\\RestWithASP.NET5-Udemy\\06_RestWithASPNETUdemy_GenericRepository\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows\\.nuget\\packages\\evolve\\3.0.0\\evolve.3.0.0.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
