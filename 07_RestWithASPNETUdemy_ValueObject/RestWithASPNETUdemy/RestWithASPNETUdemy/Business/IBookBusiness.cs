@@ -1,20 +1,17 @@
-﻿using RestWithASPNETUdemy.Model;
-using System;
+﻿using RestWithASPNETUdemy.Data.VO;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace RestWithASPNETUdemy.Business
 {
     public interface IBookBusiness
     { 
-       Book Create(Book book);
+       BookVO Create(BookVO book);
 
-        Book FindById(long id);
+        BookVO FindById(long id);
 
-        List<Book> FindAll();
+        List<BookVO> FindAll();
 
-        Book Update(Book book);
+        BookVO Update(BookVO book);
 
         void Delete(long id);
 
