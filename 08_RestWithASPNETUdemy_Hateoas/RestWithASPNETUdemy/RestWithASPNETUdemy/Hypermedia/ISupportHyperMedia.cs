@@ -1,6 +1,6 @@
 ﻿namespace RestWithASPNETUdemy.Hypermedia
 {
-    public interface ISupportHyperMedia
+    public interface ISupportsHyperMedia
     {
     }
 }

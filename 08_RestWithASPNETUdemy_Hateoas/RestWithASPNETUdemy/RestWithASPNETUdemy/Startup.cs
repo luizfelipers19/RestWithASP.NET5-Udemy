@@ -18,6 +18,8 @@ using System.Threading.Tasks;
 using RestWithASPNETUdemy.Repository;
 using Serilog;
 using RestWithASPNETUdemy.Repository.Generic;
+using RestWithASPNETUdemy.Hypermedia.Filters;
+using RestWithASPNETUdemy.Hypermedia.Enricher;
 
 namespace RestWithASPNETUdemy
 {
@@ -50,6 +52,12 @@ namespace RestWithASPNETUdemy
              {
                 MigrateDatabase(connection);
              }
+
+            var filterOptions = new HypermediaFilterOptions();
+            filterOptions.ContentResponseEnricherList.Add(new PersonEnricher());
+            services.AddSingleton(filterOptions);
+
+
             //Api versioning
             services.AddApiVersioning();
 
@@ -82,6 +90,7 @@ namespace RestWithASPNETUdemy
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapControllerRoute("DefaultApi", "{controller=values}/{id?}");
             });
         }
         private void MigrateDatabase(string connection)
