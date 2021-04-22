@@ -56,7 +56,7 @@ namespace RestWithASPNETUdemy.Hypermedia.Enricher
             {
                 var url = new { controller = path, id = id };
                 return new StringBuilder(urlHelper.Link("DefaultApi", url)).Replace("%2f", "/").ToString();
-            }
+            };
         }
     }
 }
