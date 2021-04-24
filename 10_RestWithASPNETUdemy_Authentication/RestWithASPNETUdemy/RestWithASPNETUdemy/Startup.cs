@@ -55,7 +55,7 @@ namespace RestWithASPNETUdemy
             var tokenConfigurations = new TokenConfiguration();
 
             new ConfigureFromConfigurationOptions<TokenConfiguration>(
-                   Configuration.GetSection("TokenConfiguration")
+                   Configuration.GetSection("TokenConfigurations")
                 )
                 .Configure(tokenConfigurations);
 
