@@ -59,5 +59,10 @@ namespace RestWithASPNETUdemy.Repository
             Byte[] hashedBytes = algorithm.ComputeHash(inputBytes);
             return BitConverter.ToString(hashedBytes);
         }
+
+        public User ValidateCredentials(string userName)
+        {
+            return _context.Users.SingleOrDefault(u => (u.UserName == userName));
+        }
     }
 }
