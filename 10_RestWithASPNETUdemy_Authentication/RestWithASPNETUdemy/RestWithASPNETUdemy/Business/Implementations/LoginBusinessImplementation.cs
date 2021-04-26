@@ -9,6 +9,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
+
 namespace RestWithASPNETUdemy.Business.Implementations
 {
     public class LoginBusinessImplementation : ILoginBusiness
@@ -35,7 +36,7 @@ namespace RestWithASPNETUdemy.Business.Implementations
             var claims = new List<Claim>
             {
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString("N")),
-                new Claim(JwtRegisteredClaimNames.UniqueName,user.UserName)
+                new Claim(JwtRegisteredClaimNames.UniqueName, user.UserName)
             };
 
             var accessToken = _tokenService.GenerateAccessToken(claims);
