@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hv3CKr2DqvI3sIKhSuzkyYiHcFiGyzsdVP46XrXY9eBkKlH1efB9hk5k/L6nSqTfd4mZna+XkxYLD9qiIUYDQA==",
+  "dgSpecHash": "YrOZWOnTtBTwoMuXaOKtlo3a28OBd9DlkCX/nINJz0ZZtueBn+bBqbbvM1/8HKCe7MJ7tb5SZKKxsp8DXZW2eQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Windows\\Desktop\\Estudo\\RestWithASP-NET5Udemy\\RestWithASP.NET5-Udemy\\10_RestWithASPNETUdemy_Authentication\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
+  "projectFilePath": "C:\\Users\\Windows\\Desktop\\Estudo\\RestWithASP-NET5Udemy\\RestWithASP.NET5-Udemy\\11_RestWithASPNETUdemy_Patch\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows\\.nuget\\packages\\evolve\\3.0.0\\evolve.3.0.0.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.5\\microsoft.aspnetcore.authentication.jwtbearer.5.0.5.nupkg.sha512",
