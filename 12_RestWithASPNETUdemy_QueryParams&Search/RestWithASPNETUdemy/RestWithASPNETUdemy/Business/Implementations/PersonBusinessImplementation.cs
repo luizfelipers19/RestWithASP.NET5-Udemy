@@ -54,7 +54,10 @@ namespace RestWithASPNETUdemy.Business.Implementations
         {
             return _converter.Parse(_repository.FindById(id));
         }
-
+        public List<PersonVO> FindPersonByName(string firstName, string lastName)
+         {
+            return _converter.Parse(_repository.FindPersonByName(firstName, lastName));
+        }
         public PersonVO Update(PersonVO person)
         {
             var personEntity = _converter.Parse(person);
@@ -63,6 +66,6 @@ namespace RestWithASPNETUdemy.Business.Implementations
             return _converter.Parse(personEntity);
         }
 
-       
+        
     }
 }

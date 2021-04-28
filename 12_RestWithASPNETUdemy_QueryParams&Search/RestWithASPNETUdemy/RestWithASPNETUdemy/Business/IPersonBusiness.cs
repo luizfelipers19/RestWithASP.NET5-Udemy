@@ -13,6 +13,8 @@ namespace RestWithASPNETUdemy.Business
 
         PersonVO FindById(long id);
 
+        List<PersonVO> FindPersonByName(string firstName, string lastName);
+
         List<PersonVO> FindAll();
 
         PersonVO Update(PersonVO person);
@@ -20,6 +22,8 @@ namespace RestWithASPNETUdemy.Business
         PersonVO Disable(long id);
 
         void Delete(long id);
+
+
 
        
 
