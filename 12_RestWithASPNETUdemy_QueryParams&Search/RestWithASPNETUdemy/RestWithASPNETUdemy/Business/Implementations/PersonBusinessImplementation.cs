@@ -56,9 +56,15 @@ namespace RestWithASPNETUdemy.Business.Implementations
             var size = (pageSize < 1) ? 1 : pageSize;
 
             string query = @"select *
-from Person p where 1=1 and p.name like '%LEO%' order by p.name asc limit 10 offset 1";
+                    from Person p where 1=1 ";
+            if (!string.IsNullOrWhiteSpace(name)) query = query + $"and p.name like '%{name}%' ";
+            query += $"order by p.firstName {sort} limit {size} offset {offset}";
 
-            string countQuery = "";
+             
+
+            string countQuery = @"select (*)
+                    from Person p where 1=1 ";
+            if (!string.IsNullOrWhiteSpace(name)) countQuery = countQuery + $"and p.name like '%{name}%' ";
             var persons = _repository.FindWithPagedSearch(query);
             
             int totalResults = _repository.GetCount(countQuery);
