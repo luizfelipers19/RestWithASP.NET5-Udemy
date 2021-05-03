@@ -30,10 +30,25 @@ namespace RestWithASPNETUdemy.Controllers
         [ProducesResponseType(401)]
         [Produces("application/json")]
         
+        //realiza o upload de um único arquivo
         public async Task<IActionResult> UploadOneFile([FromForm] IFormFile file)
         {
             FileDetailVO detail = await _fileBusiness.SaveFileToDisk(file);
             return new OkObjectResult(detail);
+        }
+        
+        
+        //realiza o upload de vários arquivos, em forma de lista
+        [HttpPost("uploadMultipleFiles")]
+        [ProducesResponseType((200), Type = typeof(FileDetailVO))]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [Produces("application/json")]
+        
+        public async Task<IActionResult> UploadMultipleFiles([FromForm] List<IFormFile>  files)
+        {
+            List<FileDetailVO> details = await _fileBusiness.SaveFilesToDisk(files);
+            return new OkObjectResult(details);
         }
 
     }
