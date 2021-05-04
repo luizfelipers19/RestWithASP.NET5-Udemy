@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  restwithaspnetudemy:
-    image: restwithaspnetudemy:dev
+  rest-with-asp-net-udemy:
+    image: rest-with-asp-net-udemy:dev
     container_name: RestWithASPNETUdemy
     build:
       target: base

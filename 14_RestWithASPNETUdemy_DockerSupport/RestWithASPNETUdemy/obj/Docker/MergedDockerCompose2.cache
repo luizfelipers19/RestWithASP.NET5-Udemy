@@ -1,0 +1,9 @@
+services:
+  db:
+    image: rest-with-asp-net-udemy-db
+  rest-with-asp-net-udemy:
+    build:
+      context: C:\Users\Windows\Desktop\Estudo\RestWithASP-NET5Udemy\RestWithASP.NET5-Udemy\14_RestWithASPNETUdemy_DockerSupport\RestWithASPNETUdemy
+      dockerfile: RestWithASPNETUdemy/Dockerfile
+    image: restwithaspnetudemy
+version: '3.4'

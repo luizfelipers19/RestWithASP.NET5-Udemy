@@ -1,0 +1,14 @@
+services:
+  db:
+    build:
+      context: C:\Users\Windows\Desktop\Estudo\RestWithASP-NET5Udemy\RestWithASP.NET5-Udemy\14_RestWithASPNETUdemy_DockerSupport\RestWithASPNETUdemy
+      dockerfile: db/Dockerfile
+    command: mysqld --default-authentication-plugin=mysql_native_password
+    image: rest-with-asp-net-udemy-db
+    restart: always
+  rest-with-asp-net-udemy:
+    build:
+      context: C:\Users\Windows\Desktop\Estudo\RestWithASP-NET5Udemy\RestWithASP.NET5-Udemy\14_RestWithASPNETUdemy_DockerSupport\RestWithASPNETUdemy
+      dockerfile: RestWithASPNETUdemy/Dockerfile
+    image: restwithaspnetudemy
+version: '3.4'
