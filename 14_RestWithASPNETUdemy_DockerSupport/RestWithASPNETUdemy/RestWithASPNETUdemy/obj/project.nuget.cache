@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wvoMxQ9zbf7p/p921pDEjmNdY6pplu/7R9PmAFhtR9emvMufyfFEMUucSrjS4iGeT/GUEa/SLTW34JuNzCUUKg==",
+  "dgSpecHash": "NJi660gukOhw2cCryX3g5gJejhnocd/X4gCarDpnvYK6/lDXWGRmK+Q4tzy34EY6W1QiZirtn3HR2xo3KMZqiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Windows\\Desktop\\Estudo\\RestWithASP-NET5Udemy\\RestWithASP.NET5-Udemy\\13_RestWithASPNETUdemy_SupportToMediaFiles\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
+  "projectFilePath": "C:\\Users\\Windows\\Desktop\\Estudo\\RestWithASP-NET5Udemy\\RestWithASP.NET5-Udemy\\14_RestWithASPNETUdemy_DockerSupport\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows\\.nuget\\packages\\evolve\\3.0.0\\evolve.3.0.0.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.5\\microsoft.aspnetcore.authentication.jwtbearer.5.0.5.nupkg.sha512",
@@ -39,6 +39,7 @@
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Windows\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\mysqlconnector\\0.69.9\\mysqlconnector.0.69.9.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\Windows\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\3.2.4\\pomelo.entityframeworkcore.mysql.3.2.4.nupkg.sha512",
